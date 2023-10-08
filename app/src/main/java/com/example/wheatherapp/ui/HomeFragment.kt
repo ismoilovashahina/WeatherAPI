@@ -18,11 +18,7 @@ import com.example.wheatherapp.databinding.FragmentHomeBinding
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class HomeFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -30,7 +26,7 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
 
-    private lateinit var daily_adapter: DailyWeather_Adapter
+    private lateinit var daily_adapterr: DailyWeather_Adapter
     private lateinit var hourly_adapter: HourlyWeather_Adapter
 
     private lateinit var dailies: MutableList<Daily_Weather_Data>
